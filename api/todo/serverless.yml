@@ -1,5 +1,5 @@
 service: todo
-frameworkVersion: "=1.35.1"
+frameworkVersion: "=1.77.1"
 
 provider:
   name: aws

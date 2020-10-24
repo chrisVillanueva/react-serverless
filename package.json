@@ -4,6 +4,7 @@
   "description": "basic boilerplate with offline development setup",
   "main": "index.js",
   "dependencies": {
+    "aws-cli": "^0.0.2",
     "gulp": "4.0.0",
     "gulp-exec": "3.0.2",
     "gulp-sequence": "1.0.0",
