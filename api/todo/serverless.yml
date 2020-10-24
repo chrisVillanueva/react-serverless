@@ -3,8 +3,8 @@ frameworkVersion: "=1.77.1"
 
 provider:
   name: aws
-  runtime: nodejs6.10
-  profile: tromesh # AWS CLI profile name
+  runtime: nodejs12.x
+  profile: reactArchitectUser # AWS CLI profile name
   stage: dev
   region: us-east-1
   iamRoleStatements:
