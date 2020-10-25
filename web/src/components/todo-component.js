@@ -4,7 +4,11 @@ import _ from "lodash";
 import CreateTodo from "./todo/create-todo";
 import TodoList from "./todo/todo-list";
 
-const BASE_URL = "http://localhost:3000";
+// TODO:
+// make this configurable 
+//const BASE_URL = "http://localhost:3000";
+
+const BASE_URL = "https://ulmxlacfzf.execute-api.us-east-1.amazonaws.com/dev";
 var todos = [];
 
 export default class TodoComponent extends Component {
